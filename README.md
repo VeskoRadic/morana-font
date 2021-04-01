@@ -10,6 +10,8 @@ Just another decorative font.
 
 ![morana_example](https://github.com/VeskoRadic/morana-font/blob/main/images/latinica.png)
 
+Covered Unicode blocks or I at least hope: Basic Latin, Latin-1 Supplement, Latin Extended-A and Cyrillic. Latin Extended-B is just partialy covered and there is also a bunch of some other glyphs.
+
 Licence
 -------
 
