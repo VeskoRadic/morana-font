@@ -8,7 +8,7 @@ About
 
 Just another decorative font.
 
-
+![morana_example](https://github.com/VeskoRadic/morana-font/blob/main/images/latinica.png)
 
 Licence
 -------
