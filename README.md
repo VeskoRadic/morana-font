@@ -1,6 +1,6 @@
 # Morana
 
-Version 0.1
+Version 0.1.1
 By Веско Радић <radic.vesko@gmail.com>
 
 About
