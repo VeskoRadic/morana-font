@@ -8,7 +8,7 @@ Fixed glyph U+175.
 
 Improved kerning for some characters.
 
-Dozens of characters have small point corrections.
+The bunch of characters had minor corrections.
 
 ## [0.1] - 1. 4. 2021.
 
