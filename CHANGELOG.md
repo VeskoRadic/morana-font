@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.2] - 2. 4. 2021.
+## [0.1.1] - 2. 4. 2021.
 
 Font style set to **bold** instead of **regular** though no others weights.
 
