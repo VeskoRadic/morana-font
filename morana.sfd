@@ -26,7 +26,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1611756190
-ModificationTime: 1630866000
+ModificationTime: 1630880599
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -46,6 +46,7 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
+Lookup: 1 0 0 "'ss02' Style Set 2 in Cyrillic lookup 3" { "'ss02' Style Set 2 in Cyrillic lookup 3-1"  } ['ss02' ('DFLT' <'dflt' > 'cyrl' <'SRB ' 'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss01' Style Set 1 lookup 0" { "'ss01' Style Set 1 lookup 0-1"  } ['ss01' ('DFLT' <'dflt' > 'cyrl' <'SRB ' 'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'locl' Localized Forms in Cyrillic lookup 0" { "'locl' Localized Forms in Cyrillic lookup 0-1"  } ['locl' ('cyrl' <'SRB ' > ) ]
 Lookup: 1 0 0 "'onum' Oldstyle Figures lookup 0" { "'onum' Oldstyle Figures lookup 0-1" ("oldstyle") } ['onum' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
@@ -144,7 +145,7 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 1114080 16 4
+WinInfo: 1024 16 4
 BeginPrivate: 0
 EndPrivate
 BeginChars: 1114132 524
@@ -1080,6 +1081,7 @@ SplineSet
  329 676 329 686 329 676 c 1
 EndSplineSet
 Validated: 1
+Substitution2: "'ss02' Style Set 2 in Cyrillic lookup 3-1" uni0431.sr
 Substitution2: "'locl' Localized Forms in Cyrillic lookup 0-1" uni0431.sr
 EndChar
 
