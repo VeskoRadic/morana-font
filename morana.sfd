@@ -5,7 +5,7 @@ FamilyName: Morana
 Weight: Bold
 Copyright: Copyright (c) 2021. Vesko Radic <radic.vesko@gmail.com>
 UComments: "2021-1-27: Created with FontForge (http://fontforge.org)"
-Version: 0.1.1
+Version: 0.1.2
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1611756190
-ModificationTime: 1617397922
+ModificationTime: 1630849543
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -45,6 +45,7 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
+Lookup: 1 0 0 "'ss01' Style Set 1 lookup 0" { "'ss01' Style Set 1 lookup 0-1"  } ['ss01' ('DFLT' <'dflt' > 'cyrl' <'SRB ' 'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'locl' Localized Forms in Cyrillic lookup 0" { "'locl' Localized Forms in Cyrillic lookup 0-1"  } ['locl' ('cyrl' <'SRB ' > ) ]
 Lookup: 1 0 0 "'onum' Oldstyle Figures lookup 0" { "'onum' Oldstyle Figures lookup 0-1" ("oldstyle") } ['onum' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 1" { "'kern' Horizontal Kerning lookup 1-1" [150,0,6] } ['kern' ('DFLT' <'dflt' > 'cyrl' <'SRB ' 'dflt' > 'latn' <'dflt' > ) ]
@@ -142,10 +143,10 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 48 16 4
+WinInfo: 16 16 4
 BeginPrivate: 0
 EndPrivate
-BeginChars: 1114112 518
+BeginChars: 1114115 523
 
 StartChar: A
 Encoding: 65 65 0
@@ -4734,6 +4735,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Substitution2: "'onum' Oldstyle Figures lookup 0-1" one.oldstyle
+Substitution2: "'ss01' Style Set 1 lookup 0-1" one.ss01
 EndChar
 
 StartChar: four
@@ -4912,7 +4914,7 @@ SplineSet
  229 65 251 45 279 45 c 0
  307 45 329 65 329 95 c 2
  329 251 l 2
-279 674 m 4
+279 674 m 0
  376 674 442 660 478 642 c 0
  505 629 528 610 528 575 c 2
  528 425 l 2
@@ -4931,8 +4933,8 @@ SplineSet
  98 347 65 359 45 383 c 0
  35 395 30 409 30 425 c 2
  30 575 l 2
- 30 610 53 629 80 642 c 0
- 116 660 182 674 279 674 c 4
+ 30 610 53 629 80 642 c 4
+ 116 660 182 674 279 674 c 0
 329 575 m 2
  329 605 307 624 279 624 c 0
  251 624 229 605 229 575 c 2
@@ -5068,14 +5070,14 @@ SplineSet
 30 -1 m 1
  30 373 l 2
  30 418 59 443 93 460 c 0
- 145 485 247 497 329 497 c 4
+ 145 485 247 497 329 497 c 0
  395 497 462 497 528 497 c 1
  528 49 l 1
  578 49 l 1
  578 -1 l 1
  528 -1 l 1
  528 -64 528 -127 528 -190 c 1
- 329 -190 l 1
+ 329 -190 l 5
  329 -1 l 1
  229 -1 130 -1 30 -1 c 1
 229 49 m 1
@@ -5180,6 +5182,7 @@ SplineSet
  478 497 l 5
 EndSplineSet
 Validated: 1
+Substitution2: "'ss01' Style Set 1 lookup 0-1" one.oldstyle.sso1
 EndChar
 
 StartChar: circumflex
@@ -7955,6 +7958,7 @@ SplineSet
  254 598 l 1
 EndSplineSet
 Validated: 1
+Substitution2: "'ss01' Style Set 1 lookup 0-1" superscriptone.ss01
 EndChar
 
 StartChar: uni00B2
@@ -8131,6 +8135,7 @@ SplineSet
  297 598 l 5
 EndSplineSet
 Validated: 1
+Substitution2: "'ss01' Style Set 1 lookup 0-1" onequarter.ss01
 EndChar
 
 StartChar: onehalf
@@ -8182,6 +8187,7 @@ SplineSet
  210 165 199 174 185 174 c 0
 EndSplineSet
 Validated: 1
+Substitution2: "'ss01' Style Set 1 lookup 0-1" onehalf.ss01
 EndChar
 
 StartChar: threequarters
@@ -11347,6 +11353,154 @@ SplineSet
  168 645 224 651 315 652 c 0
 EndSplineSet
 Validated: 1
+EndChar
+
+StartChar: one.ss01
+Encoding: 1114110 1114110 518
+Width: 408
+Flags: W
+HStem: -100 21G<179 378> 597 50<30 179>
+VStem: 179 199<-100 597>
+LayerCount: 2
+Fore
+SplineSet
+30 647 m 1
+ 378 647 l 1
+ 378 398 378 149 378 -100 c 1
+ 179 -100 l 1
+ 179 132 179 365 179 597 c 1
+ 30 597 l 1
+ 30 647 l 1
+EndSplineSet
+Validated: 1
+Substitution2: "'onum' Oldstyle Figures lookup 0-1" one.oldstyle.sso1
+EndChar
+
+StartChar: one.oldstyle.sso1
+Encoding: 1114111 1114111 519
+Width: 408
+VWidth: 900
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+30 497 m 5
+ 378 497 l 1
+ 378 332 378 165 378 0 c 1
+ 179 0 l 1
+ 179 148 179 299 179 447 c 1
+ 30 447 l 5
+ 30 497 l 5
+EndSplineSet
+EndChar
+
+StartChar: superscriptone.ss01
+Encoding: 1114112 -1 520
+Width: 234
+VWidth: 900
+Flags: W
+HStem: 573 25<30 104>
+VStem: 104 100<349 573>
+LayerCount: 2
+Fore
+SplineSet
+30 598 m 5
+ 204 598 l 1
+ 204 516 204 431 204 349 c 1
+ 104 349 l 1
+ 104 423 104 499 104 573 c 1
+ 30 573 l 5
+ 30 598 l 5
+EndSplineSet
+EndChar
+
+StartChar: onequarter.ss01
+Encoding: 1114113 -1 521
+Width: 370
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+48 -5 m 1
+ 48 133 l 2
+ 48 155 62 167 79 175 c 0
+ 105 187 156 195 197 195 c 0
+ 230 195 264 195 297 195 c 1
+ 297 20 l 1
+ 322 20 l 1
+ 322 -5 l 1
+ 297 -5 l 1
+ 297 -21 297 -39 297 -55 c 1
+ 197 -55 l 1
+ 197 -5 l 1
+ 48 -5 l 1
+147 20 m 1
+ 197 20 l 1
+ 197 169 l 1
+ 177 169 163 164 155 155 c 0
+ 151 149 147 143 147 133 c 2
+ 147 20 l 1
+30 299 m 1
+ 133 299 237 299 340 299 c 1
+ 340 249 l 1
+ 237 249 133 249 30 249 c 1
+ 30 299 l 1
+98 598 m 1
+ 272 598 l 1
+ 272 516 272 431 272 349 c 1
+ 172 349 l 1
+ 172 423 172 499 172 573 c 1
+ 98 573 l 1
+ 98 598 l 1
+EndSplineSet
+EndChar
+
+StartChar: onehalf.ss01
+Encoding: 1114114 -1 522
+Width: 370
+VWidth: 900
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+98 598 m 1
+ 272 598 l 1
+ 272 516 272 431 272 349 c 1
+ 172 349 l 1
+ 172 423 172 499 172 573 c 1
+ 98 573 l 1
+ 98 598 l 1
+30 299 m 1
+ 133 299 237 299 340 299 c 1
+ 340 249 l 1
+ 237 249 133 249 30 249 c 1
+ 30 299 l 1
+185 174 m 0
+ 171 174 160 165 160 150 c 2
+ 160 120 l 1
+ 60 120 l 1
+ 60 150 l 2
+ 60 168 72 176 86 183 c 0
+ 104 192 137 199 185 199 c 0
+ 233 199 266 191 284 183 c 0
+ 298 177 310 168 310 150 c 2
+ 310 120 l 2
+ 310 72 252 66 210 59 c 0
+ 192 56 188 56 176 50 c 0
+ 168 46 160 36 160 20 c 2
+ 160 -30 l 1
+ 210 -30 l 1
+ 210 -14 210 4 210 20 c 1
+ 310 20 l 1
+ 310 -5 310 -30 310 -55 c 1
+ 227 -55 143 -55 60 -55 c 1
+ 60 20 l 2
+ 60 68 118 73 160 80 c 0
+ 178 83 182 84 194 90 c 0
+ 202 94 210 104 210 120 c 2
+ 210 150 l 2
+ 210 165 199 174 185 174 c 0
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont

@@ -1,5 +1,10 @@
 # Changelog
 
+
+## [0.1.2] - 5. 9. 2021.
+
+Added *ss01* - variant of glyph 1.
+
 ## [0.1.1] - 2. 4. 2021.
 
 Font style set to **bold** instead of **regular** though no others weights.
