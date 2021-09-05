@@ -3,7 +3,9 @@
 
 ## [0.1.2] - 5. 9. 2021.
 
-Added *ss01* - variant of glyph 1.
+Added Style sets:
+* *ss01* - alternate variant of number 1
+* *ss02* – localised Serbian glyph u+0431
 
 ## [0.1.1] - 2. 4. 2021.
 
